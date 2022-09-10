@@ -2,6 +2,13 @@
   background-color: lightblue;
 }
 
-.gallery-container {
+.gallery-item-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: 200px;
 }
